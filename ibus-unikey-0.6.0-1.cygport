@@ -1,0 +1,9 @@
+inherit gnome2
+
+DESCRIPTION="IBus Vietnamese input engine"
+HOMEPAGE="http://code.google.com/p/ibus-unikey"
+SRC_URI="http://ibus-unikey.googlecode.com/files/${P}.tar.gz"
+
+DISTCLEANFILES="src/*.xml.in"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/ibus"
