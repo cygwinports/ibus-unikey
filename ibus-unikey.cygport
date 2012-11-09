@@ -1,6 +1,12 @@
 inherit gnome2
 
-DESCRIPTION="IBus Vietnamese input engine"
+NAME="ibus-unikey"
+VERSION=0.6.1
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="IBus Vietnamese input method engine"
+DESCRIPTION="Vietnamese Input Method Engine for IBus using the Unikey Engine."
+REQUIRES="ibus"
 HOMEPAGE="http://code.google.com/p/ibus-unikey"
 SRC_URI="http://ibus-unikey.googlecode.com/files/${P}.tar.gz"
 

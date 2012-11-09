@@ -1,5 +1,0 @@
-category: X11
-requires: ibus libgcc1 libglib2.0_0 libgtk2.0_0 libibus1.0_0 libintl8 libstdc++6 libX11_6
-sdesc: "IBus Vietnamese input method engine"
-ldesc: "ibus-skk is an implementation of the SKK (Simple Kana-Kanji) input
-method on the IBus input method framework."
