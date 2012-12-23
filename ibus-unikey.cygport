@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="ibus-unikey"
 VERSION=0.6.1
-RELEASE=1
+RELEASE=2
 CATEGORY="X11"
 SUMMARY="IBus Vietnamese input method engine"
 DESCRIPTION="Vietnamese Input Method Engine for IBus using the Unikey Engine."
