@@ -8,8 +8,6 @@ SUMMARY="IBus Vietnamese input method engine"
 DESCRIPTION="Vietnamese Input Method Engine for IBus using the Unikey Engine."
 REQUIRES="ibus"
 HOMEPAGE="http://code.google.com/p/ibus-unikey"
-SRC_URI="http://ibus-unikey.googlecode.com/files/${P}.tar.gz"
+SRC_URI="http://ibus-unikey.googlecode.com/files/${NAME}-${VERSION}.tar.gz"
 
 DISTCLEANFILES="src/*.xml.in"
-
-CYGCONF_ARGS="--libexecdir=/usr/lib/ibus"
